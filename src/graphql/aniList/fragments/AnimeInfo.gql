@@ -1,0 +1,20 @@
+fragment AnimeInfo on Media {
+  id
+  title {
+    english
+    romaji
+  }
+  coverImage {
+    color
+    medium
+    large
+  }
+  format
+  duration
+  meanScore
+  nextAiringEpisode {
+    airingAt
+    timeUntilAiring
+    episode
+  }
+}
